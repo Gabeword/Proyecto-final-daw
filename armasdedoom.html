@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Doom Slayer</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" type="image/png" href="assest/Favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <!--Divs principal-->
+    <div class="container">
+        <!--barra de navegacion-->
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">DOOM</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="elmundodedoom.html">El Mundo de Doom</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="demonios.html">Demonios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="personajessecundarios.html">Personajes Secundarios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="armasdedoom.html">Aramas de Doom</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="busqueda" placeholder="Busqueda" aria-label="Busqueda">
+                  <button class="btn btn-outline-success btn-danger" type="submit" id="colort" >Búsqueda de matanza</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          <!--container-->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assest/doom.24.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assest/doom.25.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assest/doom.26.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!--place-->
+          <div class="card">
+            <img src="assest/doom.27.jpg" class="card-img-top" alt="...">
+          
+            <div class="card-body">
+              <h5 class="card-title">Arma</h5>
+              <p class="card-text">Un arma es el elemento utilizado por el jugador para atacar a los oponentes. Se muestra en pantalla como parte del cuerpo del personaje del jugador para simular una perspectiva de primera persona. En Doom, es el aspecto principal de la acción del juego.
+
+                Cada uno aparece en la forma de un elemento que, al recogerlo, proporciona al jugador un arma adicional con la que atacar a los oponentes, así como un poco de munición para el arma correspondiente. Las armas normalmente se colocan ya sea en los niveles por los diseñadores o son dejadas al morir por los oponentes (como Zombis en los juegos de Doom). Una vez que un arma se recogió durante un partido de cualquier tipo, las armas adicionales del mismo tipo contarán sólo como munición.
+                
+                Cada arma tiene sus ventajas y desventajas cuando se utiliza contra un determinado monstruo. En términos generales, sin embargo, las armas más grandes hacen más daño, pero son más difíciles de encontrar y más difícil de mantener surtida con municiones. En cada juego, una o dos armas débiles no requieren munición y, por tanto, están siempre disponibles generalmente desde el inicio.</p>
+              <a href="#" class="btn btn-primary btn-danger">¡Muchas armas!</a>
+            </div>
+          </div>
+          
+          <div class="card" aria-hidden="true">
+            <img src="assest/doom.28.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Historia</h5>
+                <p>Puños: arma extremadamente básica de corto alcance. Nunca se queda sin munición, pero sólo es casi tan poderosa como un disparo de pistola; normalmente se utiliza sólo como último recurso o con un ataque de locura.
+                    <br>
+                    Motosierra: Produce el mismo daño que el puño normal, pero cuatro veces más rápido.
+                    <br>
+                    Pistola : El arma de largo alcance por defecto. Casi totalmente inútil contra algo más fuerte que un Zombi o Sargento.
+                    <br>
+                    Escopeta: Una buena arma de uso general capaz de hacer un daño medio-alto, sobre todo a corta distancia. El tiempo de recarga es un poco más largo que lo normal.
+                    <br>
+                    Ametralladora: Muy buena contra grandes multitudes de pequeños monstruos o monstruos grandes individuales, pero su rápida velocidad de disparo puede agotar rápidamente el suministro de munición.
+                    <br>
+                    Lanzacohetes: Dispara cohetes explosivos. Hace mucho daño, pero también puede dañar seriamente al jugador si se usa de manera indiscriminada a corta distancia.
+                    <br>
+                    Fusil de plasma: Dispara pulsos de plasma azul-caliente a alta velocidad, que pueden desintegrar hasta grupos de enemigos de entrada fácilmente - si es orientado correctamente.
+                    <br>
+                    BFG 9000: La "Big Fucking Gun". De funcionamiento un poco no intuitivo en un primer momento, pero mata a casi cualquier monstruo en un solo disparo.</p>
+            </div>
+          </div>
+       
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+</html>

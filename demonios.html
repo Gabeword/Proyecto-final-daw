@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Doom Slayer</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" type="image/png" href="assest/Favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <!--Divs principal-->
+    <div class="container">
+        <!--barra de navegacion-->
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">DOOM</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="elmundodedoom.html">El Mundo de Doom</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="demonios.html">Demonios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="personajessecundarios.html">Personajes Secundarios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="armasdedoom.html">Aramas de Doom</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="busqueda" placeholder="Busqueda" aria-label="Busqueda">
+                  <button class="btn btn-outline-success btn-danger" type="submit" id="colort" >Búsqueda de matanza</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          <!--container-->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assest/doom.13.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assest/doom.14.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assest/doom.15.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!--place-->
+          <div class="card">
+            <img src="assest/doom.16.webp" class="card-img-top" alt="...">
+          
+            <div class="card-body">
+              <h5 class="card-title">Demonios</h5>
+              <p class="card-text">Un Demonio es cualquier cosa artificialmente inteligente, que no va a ser generado si se está utilizando el parámetros de línea de comandos -nomonsters. En los modos de juego de un solo jugador y cooperativo, gran parte del tiempo del juego de un usuario se gasta en el combate contra los monstruos enemigos.
+
+                Los monstruos aparecen ya sea colocados en un nivel durante su diseño, creados por otro demonio (en particular, los Elementales del dolor que engendran Almas perdidas) o bien son engendrados por el jefe final.</p>
+              <a href="#" class="btn btn-primary btn-danger">¡Demons!</a>
+            </div>
+          </div>
+          
+          <div class="card" aria-hidden="true">
+            <img src="assest/doom.17.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Demonios Clasicos</h5>
+                <p>Los monstruos de Doom se pueden clasificar en dos grandes grupos: los antiguos humanos que han sido poseídos por fuerzas demoníacas y los monstruos demoníacos o engendros del infierno (hellspawn), que se originan en el mismo infierno o llegan desde allí.
+
+                    Una clase particular de estos últimos son los Jefes, un personaje particularmente grande o difícil que debe ser derrotado al final de un segmento de un juego, ya sea en un nivel, un episodio o el final del juego en sí.</p>
+            </div>
+          </div>
+       
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+</html>
